@@ -1,0 +1,45 @@
+
+
+header{height: 60px; background-color: rgb(37, 202, 194);   }
+
+
+#4d{ color: black; }
+
+
+
+#logo{ color: white;     margin-left: 60px; margin-top: px; float: left;}
+#contact{ width: 15%;  float: right;   }
+
+
+
+
+
+#nav{  height: 40px;   background-color: rgb(28, 78, 78);    }
+
+
+
+
+
+
+
+#divarticle{ width: 64%; height: 100%; float: left; padding: 3%;
+          
+           background-color: rgb(197, 235, 222);
+         }     
+
+#divaside{ width: 29%;  float:right; 
+          
+           background-color: rgb(67, 112, 112);
+          border: 1px solid green;
+         }
+         
+         
+
+
+
+
+
+
+#footer{ float:left;  height: 200px; width: 100%; background-color: rgb(28, 78, 78); border: 1px;border-color: rgb(52, 59, 57);
+}
+         

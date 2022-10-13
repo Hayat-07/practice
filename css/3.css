@@ -1,0 +1,70 @@
+body{padding: 0; margin: 0; 
+}
+
+
+#sidenav{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(104, 153, 137);
+    position: fixed;
+    margin: 0px; padding: 30px 0px;
+    list-style-type: none;text-decoration: none;
+
+}
+#b{padding: 10px;}
+
+
+
+#b a{color: rgb(255, 255, 255); text-decoration: none;      
+
+
+    }
+#b a:hover{ height:30px;width: 100%; background-color: aquamarine;  color: rgb(5, 5, 5); text-decoration: none;      
+
+
+    }
+
+
+
+
+
+
+
+
+
+.container{ 
+    display: flex;
+
+       }
+
+.box{
+
+    height: 200px;
+    width: 250px;
+    background-color: rgb(219, 223, 222);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    border: 0px solid green;
+ }
+
+.box:hover{  height: 200px;
+    width: 250px;
+    background-color: rgb(227, 231, 230);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    border: 0px solid green;
+    box-shadow: 0px 5px 7px 1px grey,  0 2px 3px 0px grey;
+    box-sizing: 5px;   
+
+}
+
+
+.chilD p:nth-child(2){  color: rgb(255, 0, 76);     }
+
+
+
+
+
+

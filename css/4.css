@@ -1,0 +1,56 @@
+*{box-sizing: border-box;}
+
+body{padding: 0px;margin: 0;}
+.header{text-align: center; color: rgb(233, 233, 233); width: 100%; height: 60px; position: fixed; top: 0px; background-color: rgba(41, 134, 103, 0.651); padding: 0px;}
+.header p{margin-top: 5px;font-size: 40px;}
+
+
+
+
+
+
+.nav{text-align: center; padding: 0px;  color: rgb(243, 243, 243); width: 100%; height: 30px; position: fixed; top: 60px; background-color: rgb(29, 61, 51);}
+
+.nav ul{ display: inline-flex; list-style: none;   margin-top: 0px; padding: 6px ;text-decoration: none; color: rgb(236, 236, 236); text-align: center;}
+
+.nav ul a{margin-top: 0px; padding: 0px 25px;text-decoration: none; color: rgb(236, 236, 236);}
+
+#dropdown{display: none;}
+a.service:hover #dropdown{margin-top: 20px 20px 0 30px;   display: block; position: absolute;text-decoration: none; color: rgb(255, 255, 255); background-color: rgba(35, 82, 67, 0.822);}
+#dropdown li{padding: 15px 0px; border-bottom: 1px solid rgba(0, 5, 5, 0.993);}
+
+
+
+
+
+
+
+#grid{margin-top: 90px; width: 100%; display: grid;height: 100vh;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 70px; background-color: blue;
+
+}
+
+.aside{width: 100%; height: 100%; grid-column: 1; background-color: rgb(197, 197, 197);text-align: center; color: rgb(243, 243, 243);}
+
+.aside img{margin-top: 30px;    width: 70%; border-bottom: 2px solid black;}
+.article{width: 100%; height: 100%; grid-column: 2/span 4;background-color: rgb(255, 255, 255); text-align: center;}
+div.article p{padding: 10px 20px;}
+
+
+
+.footer{width: 100%; height: 70px; position: sticky; bottom: 0px;color: rgb(197, 197, 197); background-color: rgb(22, 48, 40);
+
+      grid-column: 1/span 4; z-index: -1;text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+

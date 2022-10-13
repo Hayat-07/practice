@@ -1,0 +1,100 @@
+body{padding: 0px; margin: 0; display: block;}
+
+
+
+
+
+header{width: 100%;height: 60px; position: fixed; margin-top: 0px; background-color: rgba(2, 72, 77, 0.39);}
+header img{width: 70px;height: 60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{ position: fixed;margin-top: 60px;  list-style-type: none;   justify-content: center; width: 100%; background-color: rgb(0, 45, 56); height: 40px; display: inline-flex;}
+
+.menu{padding: 10px 40px;   color: rgb(194, 194, 194);}
+.menu:hover{padding: 10px 40px;   color: rgb(255, 255, 255); cursor: pointer;}
+.menu:active{padding: 10px 40px;   color: rgb(0, 138, 131);}
+
+.item{ display: none;}
+
+.drop:hover .item{padding:0; text-align: center;  list-style-type: none;  display: block;position: absolute; background-color: rgba(0, 46, 48, 0.61); width: 110px; margin:12px 0 0 -25px ; }
+.item li{  padding: 15px 0; border-bottom: 2px solid black;}
+.item li:hover{cursor: pointer ; background-color: rgba(10, 120, 163, 0.74);  padding: 15px 0; border-bottom: 2px solid black;}
+.item li:last-child{ border-bottom:none;}
+
+
+#container{background-color: rgb(240, 240, 240); width: 100%;height:100%;margin-top: 80px; display:flex; flex-direction: column;}
+
+
+
+.a1{display:flex;justify-content: center;align-items: center;   
+    background-color: black; height: 400px; width: 400px;margin: auto;
+
+}
+.a2{display:flex;justify-content: center;align-items: center;   
+    background-color: rgb(95, 0, 0); height: 90%; width: 90%;
+
+}
+.a3{display:flex;justify-content: center;align-items: center;   
+    background-color: rgb(219, 132, 0); height: 90%; width: 90%;
+
+}
+.a4{display:flex;justify-content: center;align-items: center;   
+    background-color: rgb(96, 214, 0); height:90%; width: 90%;
+
+}
+.a5{display:flex;justify-content: center;align-items: center; 
+    background-color: rgb(19, 241, 119); height:90%; width: 90%;
+
+}
+.a6{display:flex;justify-content: center;align-items: center;   
+    background-color: rgb(0, 164, 214); height:90%; width: 90%;
+
+}
+
+
+
+
+
+
+.b1{justify-self: center;display: block;padding: 10%;
+    background-color: black; height: 400px; width: 400px;
+}
+.b2{justify-self: center;align-self: center; display: block;padding: 10%;margin: 0;
+    background-color: rgb(83, 0, 0); height: 90%; width: 90%px;
+}
+.b3{justify-self: center;align-self: center; display: block;padding: 10%;margin: 0;
+    background-color: rgb(231, 9, 9); height: 90%; width: 90%px;
+}
+.b4{justify-self: center;align-self: center; display: block;padding: 10%;margin: 0;
+    background-color: rgb(168, 123, 123); height: 90%; width: 90%px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{grid-row:2 ;
+    width: 100%;height: 100px; text-align: center;
+    background-color: rgb(0, 50, 53); color: aliceblue;}
